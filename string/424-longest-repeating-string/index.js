@@ -9,6 +9,7 @@ var characterReplacement = function (s, k) {
   let maxCharCount = 0;
   const visited = {};
 
+  /* Time O(N) */
   while (right < s.length) {
     const char = s[right];
     visited[char] = visited[char] ? visited[char] + 1 : 1;
