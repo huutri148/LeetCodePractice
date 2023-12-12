@@ -1,15 +1,11 @@
 /**
- * height = [1,8,6,2,5,4,8,3,7]
- * return 49
+ * https://leetcode.com/problems/container-with-most-water/
+ * Time O(N)
  * @param {number[]} height
  * @return {number}
  */
 
-/**
- * Using two sliding window pointer
- * O(n)
- */
-var maxArea = function (height) {
+const maxArea = (height) => {
   let largestArc = 0,
     leftIndex = 0,
     rightIndex = height.length - 1;
