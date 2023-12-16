@@ -1,5 +1,6 @@
 /**
  * https://leetcode.com/problems/sort-colors/
+ * Time O(log(n))
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
@@ -25,8 +26,3 @@ const sortColors = (nums) => {
 const swapNums = (nums, i, j) => {
   [nums[i], nums[j]] = [nums[j], nums[i]];
 };
-
-const arr = [2, 0, 2, 1, 1, 0];
-sortColors(arr);
-
-console.log(arr);
