@@ -1,6 +1,6 @@
 /**
  * https://leetcode.com/problems/contains-duplicate-ii/
- *
+ * Time(O(n)) | Space(O(n))
  * @param {number[]} nums
  * @param {number} k
  * @return {boolean}

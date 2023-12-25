@@ -1,9 +1,10 @@
 /**
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * Time O(N) | Space O(1)
  * @param {number[]} prices
  * @return {number}
  */
 
-/* Time O(N) | Space O(1)*/
 var maxProfit = function (prices) {
   let max = 0,
     leftIndex = 0,
